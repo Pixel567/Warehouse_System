@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container1">
+        <div class="title2">
+            <img class="image1" src="{{ url_for('static', filename='logo1_transparent.png') }}" >
+            <strong>DailyBasket.com</strong>
+            <br><br>
+            Welcome back!
+            <br>
+    <form action="check_login" method="post">
+
+        <div class="input-container1">
+            <img class="image2" src="{{ url_for('static', filename='user.png') }}" ><input type="text" placeholder="Login" name="username"><br>
+            <img class="image2" src="{{ url_for('static', filename='password.png') }}" ><input type="password" placeholder="Password" name="password"><br>
+        <button type="submit" class="button1" >LOGIN</button>
+        </div>
+    </form>
+        </div>
+    </div>
+</body>
+</html>

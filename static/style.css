@@ -1,0 +1,83 @@
+html {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    background-size: cover;
+    background: rgb(175,226,255);
+    background: #483D8B
+ /*linear-gradient(90deg, rgba(175,226,255,1) 0%, rgba(0,39,255,1) 100%);*/
+}
+
+.home {
+    text-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1 {
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 55%;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #483D8B
+
+}
+
+.title2 {
+    font-size:40px;
+    color: black;
+    text-align: center;
+    align-items: center;
+}
+
+.container1 {
+    width: 30%; /* Szerokość kontenera */
+    padding: 20px; /* Wewnętrzny odstęp kontenera */
+    border-radius: 5px; /* Zaokrąglenie rogów kontenera */
+    background-color: white;
+    box-shadow: 0 0 50px 20px rgba(0, 0, 0, 0.5);
+    height: 70vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-container1 input[type="text"], .input-container1 input[type="password"] {
+    width: 30%; /* szerokość pola tekstowego */
+    padding: 10px; /* wewnętrzny odstęp */
+    border: none; /* usuwamy domyślne obramowanie */
+    border-radius: 0; /* usuwamy zaokrąglenie rogów */
+    font-size: 16px; /* rozmiar czcionki */
+    outline: none; /* usuwa domyślne podświetlenie elementu po kliknięciu */
+    border-bottom: 2px solid #007bff;
+    border-color:lightgray;
+    margin: 20px;
+    font-size:20px;
+
+}
+
+.image1 {
+    width: 20%;
+    height: 20hv;
+}
+.image2 {
+    width: 5%;
+    height: 5hv;
+}
+
+
